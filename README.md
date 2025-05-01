@@ -1,19 +1,31 @@
-a simple micro service implementaiton in C#, postgress DB
-**✅ Project Overview**
-We’ll create:
-2 microservices:
-  ProductService (manages products)
-  OrderService (manages orders)
-API Gateway using Ocelot
-Database: PostgreSQL for each service
+# 🧩 Simple Microservices Implementation in C# with PostgreSQL
 
-**🧰 Prerequisites**
-Visual Studio 2022 or later
-.NET 8 SDK
-PostgreSQL installed locally
-PostgreSQL NuGet packages
-Ocelot NuGet package
+## ✅ Project Overview
 
+This solution demonstrates a basic microservices architecture using C#, .NET 8, and PostgreSQL. It includes:
+
+- **2 Microservices**:
+  - `ProductService` – Manages product data
+  - `OrderService` – Manages order data
+- **API Gateway** using [Ocelot](https://ocelot.readthedocs.io/en/latest/)
+- **Database**: Each microservice uses its own PostgreSQL instance
+
+---
+
+## 🧰 Prerequisites
+
+Make sure you have the following installed:
+
+- Visual Studio 2022 or later
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
+- PostgreSQL (installed locally)
+- Required NuGet Packages:
+  - `Npgsql.EntityFrameworkCore.PostgreSQL`
+  - `Ocelot`
+
+---
+
+## 📁 Project Structure
 MicroservicesSolution/
 │
 ├── APIGateway/                     # Ocelot API Gateway project
