@@ -55,6 +55,6 @@ MicroservicesSolution/
 │   ├── Program.cs
 │   └── appsettings.json           # Includes PostgreSQL connection string
 │
-├── MicroservicesSolution.sln      # Visual Studio solution file```
+├── MicroservicesSolution.sln      # Visual Studio solution file
 
 ![image](https://github.com/user-attachments/assets/eefc3f7e-00ea-4d58-826e-16ee6471a721)
